@@ -233,3 +233,80 @@ nav li ul li {
   background-color: #001f49;
   color: #ffffff;
 }
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  font-family: "Lusitana";
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-left: 10px;
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  font-family: "Lusitana";
+  background-color: #ffd633;
+  color: #001f49;
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #e6b800;
+}
+/* When moving the mouse over the text input boxes, add a darker green color */
+#fcontact input[type="text"]:hover,
+#fcontact select:hover,
+#fcontact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #e6b800;
+}
+
+#fcontact input[type="text"]:focus,
+#fcontact select:focus,
+#fcontact textarea:focus{
+    outline:none;
+    border-color:#e6b800;
+    box-shadow:0 0 5px #e6b800;
+}
+
+/* Add a background color and some padding around the form */
+.Container {
+  background-color: #001f49;
+  background-image: url("../imgs/backgroung-body-1.png");
+  /*margin: 20px !important;*/
+  text-align: left;
+  padding-top: 40px;
+  color: #fff;
+  font-family: "Lusitana";
+  font-size: 100%;
+  height:600px;
+}
+
+.Contact {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  /*position: relative;*/
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 5px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+

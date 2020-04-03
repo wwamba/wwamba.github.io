@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>About - Warren Wamba</title>
+	<title>Contact - Warren Wamba</title>
   <link rel="shortcut icon" type ="image/png" href="imgs/png/wwsite-logo.png"/>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
@@ -30,36 +30,44 @@
       </ul>
     </nav>
 
-    <section>
-       <article class="Paragraph">
-            <h1>About</h1>
-            <br/>
-            <p>Warren has 5 years of experience as a consulting engineer specializing in 
-                the delivery of strategic pieces of work for market and counterparty risk departments
-                    of the world's main investment banks both in Paris and London.</p>
-            <br/>
-            <p>An experience at a Big Four company as a Senior Financial Services Risk Management
-             Quantitative Advisor in London allowed him to work mainly on the identification, quantification,
-              and mitigation of model risk.</p>
-            <br/>
-            <p>
-                During his career as a consulting engineer, he developed qualities of rigor, team-spirit, 
-                and initiative as well as solid analytical skills.
-            </p>
-            <br/>
-            <p>
-                Also, on the one hand, his knowledge of risk measures (VaR, ES, EAD, EEPE, CVA, etc.), 
-                derivatives (rates, stocks, etc.) and associated pricing and, on the other hand, 
-                his mastery of main development languages allows him to be a proposal strength 
-                for the teams with which he collaborates.
-            </p>
-            <br/>            
-            <p>
-                In a nutshell, he has a specialist-level expertise in modeling and banking risks 
-                along with a deep knowledge of the regulatory initiatives re-shaping the financial industry since 2008.
-            </p>
-        </article>
-    </section>
+    
+    <div class="Container">
+      <h3>Contact Form</h3>
+      <div class="Contact">
+        <form id="fcontact" action="" method="post">
+
+          <fieldset>
+          <input type="text" id="fname" name="firstname" tabindex="1" required autofocus placeholder="Your name..">
+          </fieldset>
+          
+          <fieldset>
+          <input type="text" id="lname" name="lastname" tabindex="2" required placeholder="Your last name..">
+          </fieldset>
+
+          <fieldset>
+          <input type="text" id="email" name="email" tabindex="3" required placeholder="Your email address..">
+          </fieldset>
+
+          <fieldset>
+          <select id="subject" tabindex="4" required name="subject">
+            <option value="information">Information Request</option>
+            <option value="business">Business proposal</option>
+            <option value="press">Press Contact</option>
+            <option value="other">Other</option>
+          </select>
+          <fieldset>
+
+          <fieldset>
+          <textarea tabindex="5"  placeholder="Type your message here.." style="height:185px"></textarea>
+          </fieldset>
+
+          <fieldset>
+          <input type="submit" value="Submit" id="contact-submit" data-submit="...Sending">
+          </fieldset>
+
+        </form>
+      </div>
+    </div>
 
     <div class="citation_ww">
       <citation>
