@@ -187,10 +187,9 @@
 
           <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
           <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-
-          <form class="form-inline d-flex">
-            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-            <button type="submit" class="btn btn-primary mx-auto" onclick="ValidateEmail()">Subscribe</button>
+          <form id="user-subscribe" class="form-inline d-flex">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" name="inputEmail" placeholder="Enter email address...">
+            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
           </form>
 
         </div>
@@ -268,11 +267,12 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
-  <script src="js/ww-js-firebase.js"></script>
+  <script src="js/ww-js-firebase-01.js"></script>
 
   <!-- Custom scripts from Firebase -->
   <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
@@ -292,6 +292,8 @@
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+  const db = firebase.database();
+  //db.settings({ timestampsInSnapshots : true});
   firebase.analytics();
 </script>
 
