@@ -188,6 +188,36 @@
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
 
+  <script src="js/ww-js-firebase-01.js"></script>
+
+  <!-- Custom scripts from Firebase -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyB0sI66PqUBFyEHKz14kWqNk9NsEW0hV70",
+    authDomain: "wwamba-github.firebaseapp.com",
+    databaseURL: "https://wwamba-github.firebaseio.com",
+    projectId: "wwamba-github",
+    storageBucket: "wwamba-github.appspot.com",
+    messagingSenderId: "769808767873",
+    appId: "1:769808767873:web:4ffec352687aa85b3fe680",
+    measurementId: "G-4H1F4JTQ40"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.database();
+  //db.settings({ timestampsInSnapshots : true});
+  firebase.analytics();
+</script>
+
 </body>
 
 </html>
