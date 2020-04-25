@@ -182,20 +182,20 @@
 		L’application du théorème de Taylor nous conduit donc à l’expression suivante :
 	</p>
 	<p>
-		\[ {\partial P(t ; θ) \over \partial t } =  { \partial F (t,S_t,σ_t) \over \partial t} (*)\] 
+		\[ {\partial P(t ; θ) \over \partial t } =  { \partial F (t,S_t,σ_t) \over \partial t} \space (i)\] 
 	</p>
 	<p>
 		\[ {\partial P(t ; θ) \over \partial t } = {\partial F (t,S_t,σ_t) \over \partial t} ∆t + {\partial F (t,S_t,σ_t) \over \partial S_t} ∆S_t + {\partial F (t,S_t,σ_t) \over \partial σ_t} ∆σ_t \] 
 	</p>
 	<p>
-		\[ + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial^2 S_t^2} (∆S_t)^2 + {\partial^2 F (t,S_t,σ_t) \over \partial^2 S_t σ_t} ∆S_t ∆σ_t + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial^2 σ_t^2} (∆σ_t)^2  (**)\] 
+		\[ + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial^2 S_t^2} (∆S_t)^2 + {\partial^2 F (t,S_t,σ_t) \over \partial^2 S_t σ_t} ∆S_t ∆σ_t + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial^2 σ_t^2} (∆σ_t)^2  \space  (ii)\] 
 	</p>
 	<p>
 		Cette réécriture de la variation de valeur du portefeuille entre deux instants en termes de dérivées partielles de la fonction de valorisation du prix de marché de portefeuille est appelé l’explication du P&L en fonction des sensibilités de marché de premiers et seconds ordre.
 	</p>
 	<h4>b.	Avantages/Inconvénients</h4>
 	<p>
-		Le point fort de cette écriture de la variation de valeur du portefeuille de transactions en fonction de de variations données de ses paramètres de réévaluation (i.e. facteurs de risque), est de pouvoir attribuer le niveau du P&L à une variation de la courbe de taux, de la volatilité, de la valeur du sous-jacent, etc. 
+		Le point fort de cette écriture de la variation de valeur du portefeuille de transactions en fonction de variations données de ses paramètres de réévaluation (i.e. facteurs de risque), est de pouvoir attribuer le niveau du P&L à une variation de la courbe de taux, de la volatilité, de la valeur du sous-jacent, etc. 
     </p>
 	<p>
 		Le P&L et l’explication du P&L ci-dessus sont donc des éléments central du processus de gestion des risques, qui sont mesuré et analyser quotidiennement dans les banques d’investissements.
@@ -216,7 +216,7 @@
 		\[ Explained Var(P(t ; θ)) = {\partial F (t,S_t,σ_t) \over \partial t} ∆t + {\partial F (t,S_t,σ_t) \over \partial S_t} ∆S_t + {\partial F (t,S_t,σ_t) \over \partial σ_t} ∆σ_t \] 
 	</p>
 	<p>
-		\[ + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial^2 S_t^2} (∆S_t)^2 + {\partial^2 F (t,S_t,σ_t) \over \partial^2 S_t σ_t} ∆S_t ∆σ_t + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial^2 σ_t^2} (∆σ_t)^2  (***)\] 
+		\[ + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial^2 S_t^2} (∆S_t)^2 + {\partial^2 F (t,S_t,σ_t) \over \partial^2 S_t σ_t} ∆S_t ∆σ_t + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial^2 σ_t^2} (∆σ_t)^2 \space   (iii)\] 
 	</p>
     <p>
     	\[ Unexplained Var(P(t ; θ)) = {∆P(t ; θ) \over ∆t} -Explained Var(P(t ; θ)) \]
@@ -265,7 +265,7 @@
 		\[ ∆P(t ; θ) = θ ∆t + \tilde{δ} {∆S_t \over  S_t} + \tilde{ϑ} {∆σ_t \over σ_t} \] 
 	</p>
 	<p>
-		\[ + {1 \over 2}\tilde{γ} {(∆S_t)^2 \over S_t^2} + \tilde{vanna} {∆S_t ∆σ_t \over S_t σ_t} + {1 \over 2}\tilde{volga} {(∆σ_t)^2 \over σ_t^2} (***)\] 
+		\[ + {1 \over 2}\tilde{γ} {(∆S_t)^2 \over S_t^2} + \tilde{vanna} {∆S_t ∆σ_t \over S_t σ_t} + {1 \over 2}\tilde{volga} {(∆σ_t)^2 \over σ_t^2} \space  (iv)\] 
 	</p>
     <p>
     	Ou encore:
@@ -274,7 +274,7 @@
 		\[ ∆P(t ; θ) = θ ∆t + \tilde{δ} R_s + \tilde{ϑ} R_σ \] 
 	</p>
 	<p>
-		\[ + {1 \over 2}\tilde{γ} R_s^2 + \tilde{vanna} R_sR_σ + {1 \over 2}\tilde{volga}R_σ^2 (***)\] 
+		\[ + {1 \over 2}\tilde{γ} R_s^2 + \tilde{vanna} R_sR_σ + {1 \over 2}\tilde{volga}R_σ^2 \space (v)\] 
 	</p>
     <p>
     	Avec:
@@ -304,7 +304,7 @@
     	Si on suppose à présent que la quantité \(∆P(t ; θ)\)  suit une loi normal de moyenne \(μ_1(∆P(t ; θ))\)  et de variance \(μ_2 (∆P(t ; θ))^2\) alors on obtient finalement :
     </p>
     <p>
-    	\[ VaR_α = -(μ_1(∆P(t ; θ)) + μ_2 (∆P(t ; θ)) * z_α(μ_1,μ_2)) \]
+    	\[ VaR_α = -(μ_1(∆P(t ; θ)) + μ_2 (∆P(t ; θ)) * z_α(μ_1,μ_2)) \space (vi)\]
     </p>
     <h4>c.	Avantages/inconvénients</h4>
     <p>
