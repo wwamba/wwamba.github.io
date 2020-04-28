@@ -190,7 +190,7 @@
 		\[ {\partial P(t ; θ) \over \partial t } = {\partial F (t,S_t,σ_t) \over \partial t} ∆t + {\partial F (t,S_t,σ_t) \over \partial S_t} ∆S_t + {\partial F (t,S_t,σ_t) \over \partial σ_t} ∆σ_t \] 
 	</p>
 	<p>
-		\[ + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial^2 S_t^2} (∆S_t)^2 + {\partial^2 F (t,S_t,σ_t) \over \partial^2 S_t σ_t} ∆S_t ∆σ_t + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial^2 σ_t^2} (∆σ_t)^2  \space  (ii)\] 
+		\[ + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial S_t^2} (∆S_t)^2 + {\partial^2 F (t,S_t,σ_t) \over \partial S_t \partial σ_t} ∆S_t ∆σ_t + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial σ_t^2} (∆σ_t)^2  \space  (ii)\] 
 	</p>
 	<p>
 		Cette réécriture de la variation de valeur du portefeuille entre deux instants en termes de dérivées partielles de la fonction de valorisation du prix de marché de portefeuille est appelé l’explication du P&L en fonction des sensibilités de marché de premiers et seconds ordre.
@@ -218,7 +218,7 @@
 		\[ Explained Var(P(t ; θ)) = {\partial F (t,S_t,σ_t) \over \partial t} ∆t + {\partial F (t,S_t,σ_t) \over \partial S_t} ∆S_t + {\partial F (t,S_t,σ_t) \over \partial σ_t} ∆σ_t \] 
 	</p>
 	<p>
-		\[ + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial^2 S_t^2} (∆S_t)^2 + {\partial^2 F (t,S_t,σ_t) \over \partial^2 S_t σ_t} ∆S_t ∆σ_t + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial^2 σ_t^2} (∆σ_t)^2 \space   (iii)\] 
+		\[ + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial S_t^2} (∆S_t)^2 + {\partial^2 F (t,S_t,σ_t) \over \partial S_t \partial σ_t} ∆S_t ∆σ_t + {1 \over 2}{\partial^2 F (t,S_t,σ_t) \over \partial σ_t^2} (∆σ_t)^2 \space   (iii)\] 
 	</p>
     <p>
     	\[ Unexplained Var(P(t ; θ)) = {∆P(t ; θ) \over ∆t} -Explained Var(P(t ; θ)) \]
@@ -261,7 +261,7 @@
 
     <h4>b.	Peut-on intégrer les sensibilités dans la VaR ?</h4>
     <p>
-    	En remarquant que les dérivées partielles de l’équation (**) captures le passage du temps dit thêta (\({\partial F (t,S_t,σ_t) \over \partial t}\)), la variation du sous-jacent dit delta (\({\partial F (t,S_t,σ_t) \over \partial S_t}\)), la variation de la volatilité dit véga (\({\partial F (t,S_t,σ_t) \over \partial σ_t}\)), et les effets de second ordres dits gamma, vanna et volga (\({\partial^2 F (t,S_t,σ_t) \over \partial^2 S_t^2}\),\({\partial^2 F (t,S_t,σ_t) \over \partial^2 S_t σ_t}\),\({\partial^2 F (t,S_t,σ_t) \over \partial^2 σ_t^2}\)) et en introduisant des sensibilités adaptés aux rendements \(\tilde{δ}=δ*S_t\), \(\tilde{ϑ}=ϑ*σ_t\), \(\tilde{γ}=γ*S_t^2\), \(\tilde{vanna}=vanna*S_t σ_t\), \(\tilde{volga} = volga*σ_t^2\) on peut la réécrire comme suit :
+    	En remarquant que les dérivées partielles de l’équation (**) captures le passage du temps dit thêta (\({\partial F (t,S_t,σ_t) \over \partial t}\)), la variation du sous-jacent dit delta (\({\partial F (t,S_t,σ_t) \over \partial S_t}\)), la variation de la volatilité dit véga (\({\partial F (t,S_t,σ_t) \over \partial σ_t}\)), et les effets de second ordres dits gamma, vanna et volga (\({\partial^2 F (t,S_t,σ_t) \over \partial S_t^2}\),\({\partial^2 F (t,S_t,σ_t) \over \partial S_t \partial σ_t}\),\({\partial^2 F (t,S_t,σ_t) \over \partial σ_t^2}\)) et en introduisant des sensibilités adaptés aux rendements \(\tilde{δ}=δ*S_t\), \(\tilde{ϑ}=ϑ*σ_t\), \(\tilde{γ}=γ*S_t^2\), \(\tilde{vanna}=vanna*S_t σ_t\), \(\tilde{volga} = volga*σ_t^2\) on peut la réécrire comme suit :
     </p>
 	<p>
 		\[ ∆P(t ; θ) = θ ∆t + \tilde{δ} {∆S_t \over  S_t} + \tilde{ϑ} {∆σ_t \over σ_t} \] 
