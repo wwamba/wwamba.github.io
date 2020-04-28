@@ -248,7 +248,7 @@
     	La valeur en risque, beaucoup plus connue sous le nom anglais Value-at-Risk ou VaR, est une mesure de la perte potentielle qui peut survenir à la suite de mouvements adverse des prix de marché et est définie à un seuil donnée par la relation : 
     </p>
     <p>
-    	\[Pr\{L ≤ VaR(α)\} = α\]
+    	\[Pr\{L ≤ VaR(α)\} = 1-α\]
     </p>
     <p>
     	Cela peut être traduit par : Combien l’établissement financier peut-il perdre avec une probabilité α pour l’horizon de temps h fixé ?
@@ -306,7 +306,7 @@
     	Si on suppose à présent que la quantité \(∆P(t ; θ)\)  suit une loi normal de moyenne \(μ_1(∆P(t ; θ))\)  et de variance \(μ_2 (∆P(t ; θ))^2\) alors on obtient finalement :
     </p>
     <p>
-    	\[ VaR_α = -(μ_1(∆P(t ; θ)) + μ_2 (∆P(t ; θ)) * z_α(μ_1,μ_2)) \space (vi)\]
+    	\[ VaR_α = -(μ_1(∆P(t ; θ)) + μ_2 (∆P(t ; θ)) * z_(1-α) (μ_1,μ_2)) \space (vi)\]
     </p>
     <h4>c.	Avantages/inconvénients</h4>
     <p>
