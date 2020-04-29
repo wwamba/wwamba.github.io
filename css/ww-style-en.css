@@ -29,3 +29,34 @@
 .play-btn:focus {
 	outline:0;
 }
+
+#callout{
+	float: right;
+	margin:3% 3% 2% 0;
+}
+.social {
+	float: right;
+	list-style-type: none;
+	margin-top: 8%;
+}
+.social li {
+	display: inline;
+	list-style-type: none;
+}
+.banner{
+	margin-bottom: 3%;
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+}
+.one-col{
+	padding: 2%;
+}
+img{
+	max-width: 100%;
+}
+
+.contact{
+	text-align: center;
+	padding-bottom: 3%;
+}
