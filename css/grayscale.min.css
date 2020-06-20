@@ -172,8 +172,8 @@ src: url("../fonts/OpenSans-Regular.ttf");
  		font-size:1.5rem
  	}
 
-  	#essay-dev-01{
- 		background-image: url(../img/essays.dev.01/essays-dev-01.jpg);
+  	#disclaimer-dev-01{
+ 		background-image: url(../img/disclamer-main-02.jpg);
  	}
 
  }
@@ -247,6 +247,22 @@ src: url("../fonts/OpenSans-Regular.ttf");
   background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
  	background-image:  url(../img/essays-main-03.jpg);
  	
+ }
+
+
+  #disclaimer{
+    padding-top:10rem;
+  background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+  background-image:  url(../img/disclamer-main-02.jpg);
+  
+ }
+
+
+   #copyright{
+    padding-top:10rem;
+  background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+  background-image:  url(../img/copyright-main-02.jpg);
+  
  }
 
   #videos{
