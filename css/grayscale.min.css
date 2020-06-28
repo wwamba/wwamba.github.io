@@ -34,7 +34,7 @@ src: url("../fonts/OpenSans-Regular.ttf");
  	padding:.75rem;
  	color:#ffd633;
  	/*--background-image: url(../img/png/wwsite-logo.png) no-repeat;*/
-  background: url(../img/png/wwsite-logo.png)  no-repeat center center fixed; 
+  /*background: url(../img/png/wwsite-logo.png)  no-repeat center center fixed; */
  	border:none;
  }
 
