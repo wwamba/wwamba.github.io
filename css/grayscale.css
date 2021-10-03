@@ -61,14 +61,14 @@ src: url("../fonts/OpenSans-Regular.ttf");
   color:#BDE4FF;
 }
 
-#div-essays-dev-img-01{
+#div-disclaimer-dev-img-01{
 position: relative;
 width: 100%;
 padding-bottom: 56.25%;
 height: 0;
 }
 
-#div-essays-dev-img-01 iframe{
+#div-disclaimer-dev-img-01 iframe{
   position: absolute;
   top:0;
   left: 0;
