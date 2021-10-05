@@ -131,7 +131,7 @@ src: url("../fonts/OpenSans-Regular.ttf");
  	height:auto;
  	min-height:35rem;
  	padding:15rem 0;
- 	background:linear-gradient(to bottom,rgba(22,22,22,.2) 15%,rgba(22,22,22,.5) 85%,#161616 100%),url(../img/bg-masthead-06.jpg);
+ 	background:linear-gradient(to bottom,rgba(22,22,22,.2) 15%,rgba(0,14,34,.95) 95%,rgba(7,35,78,.9) 100%),url(../img/bg-masthead-06.jpg);
  	background-position:center;
  	background-repeat:no-repeat;
  	background-attachment:scroll;
@@ -214,6 +214,7 @@ src: url("../fonts/OpenSans-Regular.ttf");
  		background-color:#64a19d
  	}
 
+
  	.btn-primary:hover{
  		background-color:#4f837f
  	}
@@ -227,9 +228,26 @@ src: url("../fonts/OpenSans-Regular.ttf");
  	background-color:#467370!important
  }
 
+    .btn-dblue{
+    background-color:#a5a7ae
+  }
+
+    .btn-dblue:hover{
+    background-color:#36456e
+  }
+
+   .btn-dblue:focus{
+  background-color:#36456e;
+  color:#fff
+ }
+
+  .btn-dblue:active{
+  background-color:#293861!important
+ }
+
  .about-section{
  	padding-top:10rem;
- 	background:linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%)
+ 	background:linear-gradient(to bottom,#07234E 0,rgba(5,5,22,.9) 75%,rgba(0,0,22,.92) 100%)
  }
 
  .about-section p{
@@ -324,7 +342,7 @@ src: url("../fonts/OpenSans-Regular.ttf");
 
  .signup-section{
  	padding:10rem 0;
- 	background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/bg-meca-signup-01.jpg);
+ 	background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 100%,#161616 100%),url(../img/bg-meca-signup-01.jpg);
  	background-position:center;
  	background-repeat:no-repeat;
  	background-attachment:scroll;
@@ -403,6 +421,10 @@ a:hover{
 
 .bg-black{
 	background-color:#161616!important
+}
+
+.bg-dblue{
+  background-color:#051730!important
 }
 
 .bg-primary{
