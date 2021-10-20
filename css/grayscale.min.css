@@ -131,7 +131,7 @@ src: url("../fonts/OpenSans-Regular.ttf");
  	height:auto;
  	min-height:35rem;
  	padding:15rem 0;
- 	background:linear-gradient(to bottom,rgba(22,22,22,.2) 15%,rgba(0,14,34,.95) 95%,rgba(7,35,78,.9) 100%),url(../img/bg-masthead-06.jpg);
+ 	background:linear-gradient(to bottom,rgba(22,22,22,.2) 45%,rgba(0,14,34,.95) 97%,rgba(7,35,78,.9) 100%),url(../img/bg-masthead-06.jpg);
  	background-position:center;
  	background-repeat:no-repeat;
  	background-attachment:scroll;
@@ -293,7 +293,7 @@ src: url("../fonts/OpenSans-Regular.ttf");
    #certifications{
  	 	padding-top:10rem;
   background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
- 	background-image:  url(../img/certif-main-01.jpg);
+ 	background-image:  url(../img/certif-main-02.jpg);
  	
  }
 
@@ -425,6 +425,14 @@ a:hover{
 
 .bg-dblue{
   background-color:#051730!important
+}
+
+.bg-fblue{
+  background-color:#24C4FF!important
+}
+
+.bg-dbrown{
+  background-color:#343231!important
 }
 
 .bg-primary{
