@@ -122,10 +122,10 @@
                     <img src="../essays/img-essays/banner/essays-en-pnlandsensi-04-2020.png" />
                   </div>
 
-                  <h3 class="text-dark">Is the use of the sensitivities in explaining day-to-day P&L variations an effective method of measuring profitability and identifying market risk factors?</h3>
+                  <h3 class="text-dark">Is the use of sensitivities in explaining day-to-day P&L variations an effective method of measuring profitability and identifying market risk factors?</h3>
                   <p class="text-muted">Last Updated on April 29, 2020</p>
                 <hr>
-                <h4 class="text-dark">1.	What is P&L ?</h4>
+                <h4 class="text-dark">1.	What is P&L?</h4>
                 <p class="mb-0 text-dark-50">
                   One of the main objectives of the Front-Office of an investment bank, subdivided into specialized business lines called "trading desks", is to reach the optimal compromise between risk and profitability. 
                   <br/><br/>
@@ -141,23 +141,23 @@
                    <br/>
                   \[ Add-On(t;t+h) = \sum_{i=t}^{t+h}CashFlows(i) + \sum_{j=t}^{t+h}Adjustments(j) + \sum_{k=t}^{t+h}Fees(k) \space \space (ii)\]  
                   <br/>
-                  It worth pointing that \(P(t ; ζ_{t}) = MtM(desk-trans.,t)\)  constitutes the market value of all the desk transactions at date t. 
+                  It is worth pointing out that \(P(t ; ζ_{t}) = MtM(desk-trans.,t)\)  constitutes the market value of all the desk transactions at date t. 
                   <br/><br/>
                   The calculation of this market value can be simple if the given transactions are vanilla instruments and if their price can be easily observed on the market. On the other hand, in the context of more complex products (exotic, highly path-dependent, structured, etc.) valuation requires the use of complex models that can generate uncertainties in the calculated P&L levels.
                   <br/><br/>
                 </p>
 
-                <h4 class="text-dark">2.  Use of sensitivities in P&L explain</h4>
+                <h4 class="text-dark">2.  Use of sensitivities in P&L Explain</h4>
                   <br/>
                 <h5 class="text-dark">a.  Principle</h5>
                 <p class="mb-0 text-dark-50">
                   The P&L is used as described above by many financial institutions as a measure of the economic profitability of market activities over a given period. 
                   <br/><br/>
-                  Between two periods, observing a change in P&L levels may lead to determining the risk factors that inducted this change and optimizing the composition of the portfolio accordingly.
+                  Between two periods, observing a change in P&L levels may lead to determining the risk factors that produced this change and optimizing the composition of the portfolio accordingly.
                   <br/><br/>
-                  The idea is to arrive at the optimal trade-off between exposure/risk factors and income of the activity. That is risk management.
+                  The idea is to arrive at the optimal trade-off between exposure/risk factors and the income of the activity. That is risk management.
                   <br/><br/>
-                  An assumption often made is that the function \(P(t ;ζ_{t})\) and therefore the P&L is a \(C^{n+1}\) function  on \(I = R * R^p \) with value in \(R\) and therefore Taylor's theorem is applicable.
+                  An assumption often made is that the function \(P(t ;ζ_{t})\) and, therefore, the P&L is a \(C^{n+1}\) function  on \(I = R * R^p \) with value in \(R\) and therefore that's Taylor's theorem is applicable.
                   <br/><br/>
                   For instance, within the framework of market-options, one can write: 
                   <br/><br/>
@@ -183,13 +183,13 @@
 
                 <h5 class="text-dark">b.  Advantages/disadvantages</h5>
                 <p class="mb-0 text-dark-50">
-                  The strength in expressing of the change in the value of the trading portfolio as a function of given changes in its valuation parameters (ie risk factors), is to be able to attribute the P&L level to a change in the yield curve, the volatility, the value of the underlying, etc. 
+                  The strength in expressing the change in the value of the trading portfolio as a function of given changes in its valuation parameters (i.e., risk factors) is in being able to attribute the P&L level to a change in the yield curve, the volatility, the value of the underlying, etc. 
                   <br/><br/>
                   The P&L and the P&L explain above are, therefore, central elements of the risk management process, which are measured and analyzed daily in investment banks.
                   <br/><br/>
-                  Indeed, it is possible to immunize the portfolio and therefore the P&L against variations in a given risk factor (e.g. level of volatility, level of the underlying, etc.).
+                  Indeed, it is possible to immunize the portfolio and, therefore, the P&L against variations in a given risk factor (e.g., level of volatility, level of the underlying, etc.).
                   <br/><br/>
-                  However, it should be recalled that Taylor's development is not equality and in fact, there is a so-called integral remainder by application of the fundamental theorem of analysis:
+                  However, it should be recalled that Taylor's development is not equality and, in fact, there is a so-called integral remainder by application of the fundamental theorem of analysis:
                   <br/>
                   \[ {∆P(t ; ζ_{t})}= Explained Var(P(t ; ζ_{t}))+Unexplained Var(P(t ; ζ_{t})) \space \space (vi)\] 
                   <br/>
@@ -205,7 +205,7 @@
                   <br/>
                     \[Unexplained Var(P(t ; ζ_{t}))≅0 \space \space (ix)\]
                   <br/>
-                    In the case of complex products, with dependency on a large number of risk factors not incorporated in the P&L explain, there will be a material difference between the quantities \({∆P(t ; ζ_{t}) \over ∆t}\) and \(Explained Var(P(t ; ζ_{t}))\). It is said that the desk's P&L has material unexplained. This is a recurring challenge on some desks and requires the mobilization of a lot of resources. That can lead to the extinction of the trading activity by the institution for failure to manage the inherent risks.
+                    In the case of complex products, with dependency on a large number of risk factors not incorporated in the P&L explain, there will be a material difference between the quantities \({∆P(t ; ζ_{t}) \over ∆t}\) and \(Explained Var(P(t ; ζ_{t}))\). It is said that the desk's P&L has material unexplained. This is a recurring challenge on some desks and requires the mobilization of many resources. That can lead to the extinction of the trading activity by the institution for failure to manage the inherent risks.
                   <br/><br/>
                 </p>
                 <h5 class="text-dark">c.  Alternatives</h5>
@@ -221,7 +221,7 @@
                     <br/><br/>
                     Indeed, if we define the loss over a period as \({L= -P\&L}\).
                     <br/><br/>
-                    The Value-at-Risk or VaR for short is a measure of the potential loss that can occur following adverse movements in market prices and is defined at a confidence level for a predefined time horizon and is given by the relationship :
+                    The Value-at-Risk, or VaR for short, is a measure of the potential loss that can occur following adverse movements in market prices and is defined at a confidence level for a predefined time horizon. It is given by the relationship:
                     <br/>
                     \[Pr\{L ≤ VaR(α)\} = α \space \space (x)\]
                     <br/>
@@ -237,7 +237,7 @@
 
                 <h5 class="text-dark">b.  Can we integrate sensitivities in VaR?</h5>
                 <p class="mb-0 text-dark-50">
-                    By noting that the partial derivatives of the equation (vii) capture the passage of time named theta (\({\partial F (t,S_t,σ_t) \over \partial t}\)), the variation of the underlying named delta (\({\partial F (t,S_t,σ_t) \over \partial S_t}\)), the variation of the volatility named vega (\({\partial F (t,S_t,σ_t) \over \partial σ_t}\)), and the second-order effects named gamma, vanna et volga respectively (\({\partial^2 F (t,S_t,σ_t) \over \partial S_t^2}\),\({\partial^2 F (t,S_t,σ_t) \over \partial S_t \partial σ_t}\),\({\partial^2 F (t,S_t,σ_t) \over \partial σ_t^2}\)) and by introducing sensitivities adapted to returns \(\tilde{δ}=δ*S_t\), \(\tilde{ϑ}=ϑ*σ_t\), \(\tilde{γ}=γ*S_t^2\), \(\tilde{vanna}=vanna*S_t σ_t\), \(\tilde{volga} = volga*σ_t^2\) we can rewrite it as follows:
+                    By noting that the partial derivatives of the equation (vii) capture the passage of time named theta (\({\partial F (t,S_t,σ_t) \over \partial t}\)), the variation of the underlying named delta (\({\partial F (t,S_t,σ_t) \over \partial S_t}\)), the variation of the volatility named vega (\({\partial F (t,S_t,σ_t) \over \partial σ_t}\)), and the second-order effects named gamma, vanna, and volga , respectively, (\({\partial^2 F (t,S_t,σ_t) \over \partial S_t^2}\),\({\partial^2 F (t,S_t,σ_t) \over \partial S_t \partial σ_t}\),\({\partial^2 F (t,S_t,σ_t) \over \partial σ_t^2}\)) and by introducing sensitivities adapted to returns \(\tilde{δ}=δ*S_t\), \(\tilde{ϑ}=ϑ*σ_t\), \(\tilde{γ}=γ*S_t^2\), \(\tilde{vanna}=vanna*S_t σ_t\), \(\tilde{volga} = volga*σ_t^2\), we can rewrite it as follows:
                   <br/>
                   \[ ∆P(t ; ζ_{t}) = θ ∆t + \tilde{δ} {∆S_t \over  S_t} + \tilde{ϑ} {∆σ_t \over σ_t} \] 
                   <br/>
@@ -265,7 +265,7 @@
                   <br/>
                     \[ μ_1(∆P(t ; ζ_{t}))={1 \over 2}*trace(\tilde{Γ} ̃Σ)+θ*∆t    ;    μ_2(∆P(t ; ζ_{t}))=  {1 \over 2}*trace((\tilde{Γ}Σ)^2 )+ \tilde{π}^T Σ \tilde{π} \space \space (xiii)\]
                   <br/>
-                    If we now assume that the quantity \(∆P(t ; ζ_{t})\) follows a normal law of mean \(μ_1(∆P(t ; ζ_{t}))\)  and variance \(μ_2 (∆P(t ; ζ_{t}))^2\) then we finally get:
+                    If we now assume that the quantity \(∆P(t ; ζ_{t})\) follows a normal law of mean \(μ_1(∆P(t ; ζ_{t}))\)  and variance \(μ_2 (∆P(t ; ζ_{t}))^2\) , we finally get:
                 </p>
                 <p class="mb-0 text-dark-50">
                     \[ VaR_α = -(μ_1(∆P(t ; ζ_{t})) + μ_2 (∆P(t ; ζ_{t})) * z_{1-α} (μ_1,μ_2)) \space \space (xiv)\]
@@ -273,11 +273,11 @@
                 </p>
                 <h5 class="text-dark">c.  Advantages/disadvantages</h5>
                 <p class="mb-0 text-dark-50">
-                    The advantages of this approach are the same as the P&L explain method, it allows to attribute the variations of the risk measure to changes in risk factors. Also, since sensitivities are largely calculated and integrated into risk management systems, this usually only requires marginal adjustments.
+                    The advantages of this approach are the same as those of the P&L explain method; it allows for attribution of the variations of the risk measure to changes in risk factors. Also, because sensitivities are largely calculated and integrated into risk management systems, this usually requires only marginal adjustments.
                     <br/><br/>
-                    However, and just like the P&L explain method, flaws in the process of identification of the key risk factors impacting the considered transactions and therefore the calculated risk measures are sources of so-called unexplained discrepancies that can become material.
+                    However, and just like the P&L explain method, flaws in the process of identification of the key risk factors impacting the considered transactions. Therefore, the calculated risk measures are sources of so-called unexplained discrepancies that can become material.
                     <br/><br/>
-                    Also, within the VaR framework, we make an assumption on the P&L distribution which can generate differences. Especially if the returns exhibit leptokurtic character with fat tails. In this scenario, the VaR levels could be underestimated.
+                    Also, within the VaR framework, we make an assumption about the P&L distribution which can generate differences, especially if the returns exhibit a leptokurtic character with fat tails. In this scenario, the VaR levels could be underestimated.
                     <br/><br/>
                 </p>
                 <h4 class="text-dark">4.  Conclusion</h4>
@@ -285,15 +285,15 @@
                 <p class="mb-0 text-dark-50">
                     The use of sensitivities in P&L explain is a powerful tool for attributing P&L variations to changes in risk factors.
                     <br/><br/>
-                    However, the P&L explain is an approximation and as a result, is not exact. Therefore, the process of identifying key risk factors is central. In fact, proper identification of key risk factors will lead to satisfactory P&L explain. However, the selection of non-material risk factors and the non-consideration of risk-factors interdependencies can lead to a divergence between P&L and P&L explain.
+                    However, the P&L explain is an approximation and, as a result, is not exact. Therefore, the process of identifying key risk factors is central. In fact, proper identification of key risk factors will lead to satisfactory P&L explain. Yet, the selection of non-material risk factors and the non-consideration of risk-factor interdependencies can lead to a divergence between P&L and P&L explain.
                     <br/><br/>
-                    When the process of identifying key risk factors is well-managed and gives satisfactory results, it is easy to extend the use of sensitivities to the VaR calculation, a real measure of the potential loss of a specialized business line over a given horizon.
+                    When the process of identifying key risk factors is well-managed and produces satisfactory results, it is easy to extend the use of sensitivities to the VaR calculation, a real measure of the potential loss of a specialized business line over a given horizon.
                     <br/><br/>
-                    In the latter case, hypotheses on the P&L distribution can make the results inaccurate, a verification of assumed distribution via statistical tests could reduce uncertainties.
+                    In the latter case, hypotheses on the P&L distribution can make the results inaccurate. Verification of assumed distribution via statistical tests could reduce uncertainties.
                     <br/><br/>
-                    In the period of turmoil, where huge variations in risk factors can be observed, the regularity of the portfolio's market valuation function is often in question and lead to limits in the applicability of the Taylor's theorem.
+                    In a period of turmoil, when huge variations in risk factors can be observed, the regularity of the portfolio's market valuation function is often in question and leads to limits in the applicability of Taylor's theorem.
                     <br/><br/>
-                    In all cases, the integral revaluation methods are a good alternative which in theory does not generate any error linked to the selection of risk factors but gives a one-dimensional result.
+                    In all cases, the integral revaluation methods are a good alternative that, in theory, does not generate any error linked to the selection of risk factors but gives a one-dimensional result.
                 </p>
 
 				<p class="contact">
@@ -399,7 +399,7 @@
   <!-- Footer -->
   <footer class="bg-dblue small text-center text-white-50">
     <div class="container">
-      Copyright &copy; 2020 Warren Wamba, All rights reserved.
+      Copyright &copy; 2022 Warren Wamba, All rights reserved.
         <a href="../copyright.html" class="mx-2">
           &nbsp; Copyright
         </a>
