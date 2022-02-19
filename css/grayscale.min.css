@@ -172,9 +172,13 @@ src: url("../fonts/OpenSans-Regular.ttf");
  		font-size:1.5rem
  	}
 
-  	#disclaimer-dev-01{
+	#disclaimer-dev-01{
  		background-image: url(../img/disclamer-main-02.jpg);
  	}
+
+  #policy-dev-01{
+    background-image: url(../img/disclamer-main-02.jpg);
+  }
 
  }
 
@@ -257,7 +261,7 @@ src: url("../fonts/OpenSans-Regular.ttf");
  #content{
  	padding-top:10rem;
   background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
-  background-image:  url(../img/contents-main-02.jpg);
+  background-image:  url(../img/contents-main-04.jpg);
  }
 
  #essays{
@@ -272,6 +276,13 @@ src: url("../fonts/OpenSans-Regular.ttf");
     padding-top:10rem;
   background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
   background-image:  url(../img/disclamer-main-02.jpg);
+  
+ }
+
+   #policy{
+    padding-top:10rem;
+  background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+  background-image:  url(../img/policy-main-02.jpg);
   
  }
 
@@ -425,6 +436,15 @@ a:hover{
 
 .bg-dblue{
   background-color:#051730!important
+}
+
+.bg-lgreen{
+  background-color:#00778b!important
+}
+
+
+.bg-rblue{
+  background-color:#03215b!important
 }
 
 .bg-fblue{
