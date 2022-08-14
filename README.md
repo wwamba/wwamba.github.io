@@ -1,3 +1,3 @@
 # [Warren Wamba - Consulting Engineer](https://wwamba.github.io/)
 
-This is a page to present Warren Wamba's skills and career main area of expertise
+The purpose of this website is to provide a high-level view of Warren Wamba's skills and areas of expertise.
